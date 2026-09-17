@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Straw Hat Portfolio</title>
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<nav>
+  <div class="brand">
+    <img src="E.jpg" alt="logo" class="nav-logo">
+    <h2><span>STRAW</span>HAT</h2>
+  </div>
+  <button id="menuBtn" onclick="toggleMenu()">☰</button>
+  <div id="navLinks" class="nav-links">
+    <a href="#home" onclick="toggleMenu()">home</a>
+    <a href="#journey" onclick="toggleMenu()">journey</a>
+    <a href="#gallery" onclick="toggleMenu()">gallery</a>
+    <a href="#contacts" onclick="toggleMenu()">contacts</a>
+  </div>
+</nav>
+
+<section id="home">
+  <div class="left">
+    <h1>I'm <span id="myName">Cedrick</span></h1>
+    <h3 id="typing"></h3>
+    <p>BSIT Student from Central Philippine State university.Learning Programming, One Piece Fan.</p>
+  
+  </div>
+  <div class="right">
+    <img id="myPhoto" src="D.jpg" alt="my photo">
+  </div>
+</section>
+
+<section id="journey">
+  <h2>journey, skills, hobbies, Art</h2>
+  <div class="two-box">
+    <div class="card">
+      <h3>Journey</h3>
+      <div id="journeyBox"></div>
+    </div>
+    <div class="card">
+      <h3>Skills</h3>
+      <div id="skillsBox" class="tags"></div>
+      <h3 style="margin-top:15px;">Hobbies</h3>
+      <div id="hobbyBox" class="tags"></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>gallery, photos</h2>
+  <div class="gallery">
+    <img src="https://wallpapers.com/images/hd/luffy-black-and-red-silhouette-ij9xb4e0f4lxhfh3.jpg" alt="photo 1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnbAGU5hHam6WI95CQ0a8QimHkDWJkBAECRJ-ADrvJEyFf_K8CjaaBAqU&s=10" alt="photo 2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYIKkoN1w0zJg8anV8ndysguM6QhxmAv2N7zKOzaXgwOb1IzDbh7s-ZyH9&s=10" alt="photo 3">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6llecfcS_DQ1WDnoKYND0p9bGg2zYH0J-ZyGs5hEICQ9etoHCLKXnfA4&s=10" alt="photo 4">
+  </div>
+<section id="contacts">
+  <h2>contacts</h2>
+<div id="contactBox" class="contact-card">
+  <p>📧 <b>Email:</b> <a href="escabusasedric6@gmail.com">escabusasedric6@gmail.com</a></p>
+  <p>📱 <b>Number:</b> <a href="tel:+09976017171">09976017171</a></p>
+  <p>📘 <b>Facebook:</b> <a href="https://facebook.com/escabusa.sedric.5" target="_blank">Escabusa Sedric</a></p>
+  <p>✉️ <b>Gmail:</b> <a href="mailto:escabusasedric6@gmail.com">escabusasedric6@gmail.com</a></p>
+  <p>📍 <b>Location:</b> <a href="https://maps.google.com/?q=Brgy.+Buluangan+San+Carlos+City" target="_blank">Brgy. Buluangan, San Carlos City</a></p>
+</div>
+
+<style>
+.contact-card p {
+  margin: 8px 0;
+}
+.contact-card a {
+  color: #ff0039f5;
+  text-decoration: none;
+}
+.contact-card a:hover {
+  text-decoration: underline;
+}
+</style>
+  
+      
+<script src="Script.js"></script>
+</body>
+</html>
